@@ -15,62 +15,52 @@ body{
 }
 
 form {
-    border-radius: 5px;
-    /* background: rgb(36, 10, 207); */
     padding: 0.5rem 2.5rem 0.625rem;
     color:white;
 }
 
 
 p {
-    font-size: 1.125rem; 
+    font-size: 1.325rem; 
   }
 
-h1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-  
 h1,
 p {
     margin-top: 0;
-    /* margin-bottom: 0.5rem; */
 }
 
 #title, #description {
     color: white;
-/* align-items: center; */
-
+    margin:0 0 auto auto;
 }
 
+h1{
+    font-family:'Poppins', sans-serif;
+    margin-left:500px;
+}
+  
 
 .maincontainer {
-    /* display: block; */
-    align-items: center;
     width: 100%;
-    /* line-height: 2.5em; */
 }
 #description {
     font-style: italic;
-    font-weight: 200;
+    font-weight: 100;
 }
-
-
 
 #survey-form {
-    background-color: lightgray;
-    
+    background-color: rgb(54, 53, 63);
+    border-radius: 5px;
 }
+
 .bodyhead {
-    /* align-items: center; */
-    /* margin:20px 70px; */
+    margin:20px 70px; 
 }
 
 .div-group {
-    margin-left: 20px;
+    margin:0 20px 20px 20px;
     line-height: 2em;
-    margin-top:20px;
     font-size: inherit;
-    margin-right: 20px;
 }
 
 input,
@@ -79,12 +69,10 @@ select,
 textarea {
   margin: 0;
   font-size: inherit;
-  /* line-height: inherit; */
 }
 
 #name, #email, #age  {
     width:100%;
-    /* padding: 5px;  */
 }
 
 textarea {
@@ -103,7 +91,7 @@ label {
 
 .checkradio, .input-checkbox {
     display: inline-block;
-
+    margin-right:6px;
 }
 
 button {
@@ -131,9 +119,5 @@ button {
     border: 1px solid #ced4da;
 
   }
-  #description {
-    /* margin:0;
-    padding:0; */
-}
-
+ 
   
