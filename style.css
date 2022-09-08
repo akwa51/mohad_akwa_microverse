@@ -1,4 +1,63 @@
 body{
-    align-items: center;
+    background-color: lightblue;
+    max-width: 500px;
+    margin: auto;
+    
+}
+
+form {
+    border-radius: 2px;
+    background: darkblue;
+}
+#title{
+color: white;
+}
+.maincontainer {
     display: block;
+    align-items: center;
+    width: 100%;
+    
+}
+.description {
+    font-style: italic;
+    font-weight: 200;
+  }
+#survey-form {
+    background-color: lightgray;
+    
+}
+.bodyhead {
+    align-items: center;
+}
+
+.div-group {
+    margin-left: 20px;
+}
+
+input,
+button,
+select,
+textarea {
+  margin: 0;
+ 
+}
+
+#name, #email, #age  {
+    width:90%;
+    padding: 10px; 
+}
+
+textarea {
+min-height: 120px;
+width:90%;
+padding: 10px;
+}
+label {
+    display: flex;
+    align-items: center;
+}
+
+.checkradio, .input-checkbox {
+    display: inline-block;
+
 }
